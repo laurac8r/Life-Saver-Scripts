@@ -1,6 +1,6 @@
 #/!bin/bash
 
-# You can install required packages if you want... all installations will be local.
+# Install required packages if you want. All installations will be local.
 if [ "$UID" -ne 0 ]; then
   echo "You are about to install locally..."
 else
@@ -37,7 +37,6 @@ else
 fi
 
 cd ..
-cd ..
 
 export geant="geant4.10.03.p02.tar.gz"
 
@@ -73,4 +72,10 @@ else
   make install;
 fi
 
-echo ". $install_dir/bin/geant4.sh" >> ~/.bashrc
+cd ../..
+
+rm $xercesc
+
+rm $geant
+
+# echo ". $install_dir/bin/geant4.sh" >> ~/.bashrc

@@ -1,4 +1,6 @@
-mkdir StratSep_build
-cd StratSep_build
-cmake -DGeant4_DIR=/home/nedc/Desktop/Geant4/geant/build/lib/Geant4-10.3.1 ../StratSep
+#/!bin/bash
+
+mkdir build
+cd build
+cmake -DGeant4_DIR=/home/nedc/Desktop/Geant4/geant/build/lib/Geant4-10.3.1 ../source
 make -j8
