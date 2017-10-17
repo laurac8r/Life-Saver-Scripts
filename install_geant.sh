@@ -78,4 +78,4 @@ rm $xercesc
 
 rm $geant
 
-# echo ". $install_dir/bin/geant4.sh" >> ~/.bashrc
+echo "source $install_dir/bin/geant4.sh" >> ~/.bashrc

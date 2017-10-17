@@ -2,5 +2,5 @@
 
 mkdir build
 cd build
-cmake -DGeant4_DIR=/home/nedc/Desktop/Geant4/geant/build/lib/Geant4-10.3.1 ../source
+cmake -DGeant4_DIR=/home/yaro/Geant/geant/build/lib/Geant4-10.3.2 ../source
 make -j8
